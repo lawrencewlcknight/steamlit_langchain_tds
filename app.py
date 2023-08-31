@@ -62,7 +62,7 @@ prompt = OpenAIFunctionsAgent.create_prompt(
 
 # Generate LLM response
 def generate_response(input_query):
-    llm = ChatOpenAI(temperature = 0, openai_api_key=openai_api_key
+    llm = ChatOpenAI(temperature = 0, openai_api_key=openai_api_key)
     # Create Agent
     agent = OpenAIFunctionsAgent(llm=llm, tools=tools, prompt=prompt)
     # Execute Agent
