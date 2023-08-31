@@ -1,3 +1,4 @@
+import streamlit as st
 # used to load text
 from langchain.document_loaders import WebBaseLoader
 # used to create the retriever
