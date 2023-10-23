@@ -19,6 +19,8 @@ openai_api_key = st.secrets.openai_key
 # add a heading for your app.
 st.header("Chat with the LLM Agents blog 💬 📚")
 
+st.write(python --version)
+
 # Initialize the chat message history
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [
